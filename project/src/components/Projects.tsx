@@ -24,7 +24,7 @@ const projectsData: Project[] = [
     detailedDescription: "Developed a hospital management system to manage hospitals, doctors, and patients with role-based access (Admin, Doctor, Patient). Implemented RESTful APIs in Node.js and Express.js, integrating MongoDB for secure data storage and retrieval. Applied MERN stack knowledge successfully to create a fully functional MERN stack website. Enabled hospital creation, updating, deletion, and searching by city, along with hospital detail management.",
     image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Authentication"],
-    github: "https://github.com/udayponnaganti/",
+    github: "https://github.com/pseftis/",
     period: "January 2024 - February 2024",
     type: 'featured'
   },
@@ -35,7 +35,7 @@ const projectsData: Project[] = [
     detailedDescription: "Developed a Sales Tracker website to monitor and manage sales records efficiently. Built a dynamic and responsive frontend using React.js for seamless user interaction. Integrated features like data visualization, filtering, and sorting for better sales insights. Used extensively by students for preparation of university exams in COVID times.",
     image: "https://images.pexels.com/photos/7947451/pexels-photo-7947451.jpeg",
     technologies: ["React.js", "Chart.js", "CSS", "JavaScript", "Responsive Design"],
-    github: "https://github.com/udayponnaganti/",
+    github: "https://github.com/pseftis",
     period: "September 2024 - December 2024",
     type: 'featured'
   },
@@ -46,7 +46,7 @@ const projectsData: Project[] = [
     detailedDescription: "Created a real estate platform enabling users to list, browse, and search for properties. Implemented advanced filtering options based on location, price, amenities, and property type. Used React for frontend with Node.js backend and MongoDB for data storage. Integrated Google Maps API for property location visualization. Features include user authentication, property bookmarking, and contact forms.",
     image: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg",
     technologies: ["React", "MongoDB", "Node.js", "Express", "Google Maps API"],
-    github: "https://github.com/udayponnaganti/",
+    github: "https://github.com/pseftis",
     period: "March 2024 - May 2024",
     type: 'featured'
   },
