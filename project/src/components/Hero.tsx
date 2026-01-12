@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                 LinkedIn
               </a>
               <a 
-                href="/special cv.pdf" 
+                href="/specialcv.pdf" 
                 download
                 className="btn btn-primary"
               >
