@@ -115,7 +115,7 @@ const About: React.FC = () => {
                     Lovely Professional University
                   </div>
                   <div className="text-gray-600 dark:text-gray-400">BTech Computer Science and Engineering</div>
-                  <div className="text-gray-600 dark:text-gray-400">2022 - 2026 | CGPA: 6</div>
+                  <div className="text-gray-600 dark:text-gray-400">2022 - 2026 | CGPA: 6.98</div>
                 </div>
                 
                 <div className="relative pl-8 border-l-2 border-indigo-500">
