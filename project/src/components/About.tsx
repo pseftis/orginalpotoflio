@@ -35,7 +35,7 @@ const About: React.FC = () => {
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Education</h4>
                   <p className="text-gray-600 dark:text-gray-400">BTech in Computer Science and Engineering</p>
                   <p className="text-gray-600 dark:text-gray-400">Lovely Professional University, Punjab</p>
-                  <p className="text-gray-600 dark:text-gray-400">2022 - 2026 | CGPA: 6</p>
+                  <p className="text-gray-600 dark:text-gray-400">2022 - 2026 | CGPA: 6.98</p>
                 </div>
               </div>
               
