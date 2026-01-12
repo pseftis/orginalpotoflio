@@ -29,7 +29,7 @@ const certificatesData: Certificate[] = [
     title: "Programming in C++: A Hands-On Approach",
     issuer: "Coursera",
     date: "March 2023",
-    link: "https://coursera.org/share/bcb509c0128f62fcfa5f565f3c89e4cc",
+    link: "https://www.coursera.org/account/accomplishments/specialization/2CBCGKGXP35R",
     description: "Practical course teaching C++ programming fundamentals and object-oriented programming concepts.",
     skills: ["C++", "OOP", "Memory Management", "STL", "Exception Handling"]
   },
@@ -38,7 +38,7 @@ const certificatesData: Certificate[] = [
     title: "Server-side JavaScript with Node.js",
     issuer: "Coursera",
     date: "December 2024",
-    link: "https://coursera.org/share/76142e56287860299da0e644138a0f32",
+    link: "https://www.coursera.org/account/accomplishments/verify/LU7L28ATRZRG",
     description: "In-depth coverage of server-side JavaScript development using Node.js, Express, and related technologies.",
     skills: ["Node.js", "Express", "RESTful APIs", "MongoDB", "Authentication"]
   },
