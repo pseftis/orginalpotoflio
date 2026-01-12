@@ -52,15 +52,24 @@ const projectsData: Project[] = [
   },
   {
     id: 4,
-    title: "Personal Finance Tracker",
-    description: "A budgeting and expense tracking application to help users manage their personal finances.",
-    detailedDescription: "Built a personal finance application allowing users to track income, expenses, and set budget goals. Implemented data visualization for spending patterns and category-wise analysis. Features include receipt scanning, monthly reports, and financial goal setting. Used React with Firebase for authentication and real-time database updates.",
-    image: "https://images.pexels.com/photos/5849577/pexels-photo-5849577.jpeg",
-    technologies: ["React", "Firebase", "Chart.js", "Material UI"],
-    github: "https://github.com/udayponnaganti/",
-    period: "July 2023 - August 2023",
-    type: 'other'
-  },
+  title: "DataGuard – Personal Data & Consent Management Dashboard",
+  description:
+    "A privacy-focused dashboard that helps users design, analyze, and understand fine-grained data-sharing consent across partner applications.",
+  detailedDescription:
+    "DataGuard is a personal SDE-intern–level system design project built with Next.js 14 and TypeScript. It allows users to model partner applications (such as ad networks, mobility services, or analytics tools) and configure per-category consent rules for sensitive data including Email, Phone, Location, Browsing History, Payments, and Contacts. A deterministic, rule-based risk engine computes a live privacy risk score (0–100) and generates a human-readable explanation, helping users reason about trade-offs between personalization and privacy. The app persists partner consent configurations in localStorage to simulate per-user profiles and is architected to scale into a multi-tenant privacy console with backend APIs, audit logs, and future AI-powered risk explanations.",
+  image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+  technologies: [
+    "TypeScript",
+    "Next.js 14",
+    "React",
+    "Rule-Based Risk Engine",
+    "LocalStorage",
+    "System Design"
+  ],
+  github: "https://github.com/pseftis/DataGuard",
+  period: "2024",
+  type: "featured",
+},
   {
     id: 5,
     title: "E-Learning Platform",
@@ -68,7 +77,7 @@ const projectsData: Project[] = [
     detailedDescription: "Developed an e-learning platform that allows instructors to create courses and students to enroll in them. Implemented video streaming functionality for lectures, quiz systems for assessments, and progress tracking for students. Features include discussion forums, file sharing, and certificate generation upon course completion. Built with MERN stack with AWS S3 for file storage.",
     image: "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
     technologies: ["MERN Stack", "AWS S3", "Video.js", "Redux"],
-    github: "https://github.com/udayponnaganti/",
+    github: "https://github.com/pseftis",
     period: "October 2023 - December 2023",
     type: 'other'
   }
