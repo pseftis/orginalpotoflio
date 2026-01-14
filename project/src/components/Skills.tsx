@@ -23,25 +23,25 @@ const skillsData: SkillCategory[] = [
       {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        level: 90,
+        level: 70,
         color: "#F7DF1E"
       },
       {
         name: "TypeScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-        level: 80,
+        level: 60,
         color: "#3178C6"
       },
       {
         name: "Python",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-        level: 75,
+        level: 60,
         color: "#3776AB"
       },
       {
         name: "Java",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-        level: 70,
+        level: 85,
         color: "#007396"
       },
       {
@@ -58,7 +58,7 @@ const skillsData: SkillCategory[] = [
       {
         name: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        level: 90,
+        level: 70,
         color: "#61DAFB"
       },
       {
@@ -70,21 +70,10 @@ const skillsData: SkillCategory[] = [
       {
         name: "HTML5",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        level: 95,
+        level: 80,
         color: "#E34F26"
-      },
-      {
-        name: "CSS3",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-        level: 90,
-        color: "#1572B6"
-      },
-      {
-        name: "Tailwind CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        level: 85,
-        color: "#38B2AC"
       }
+      
     ]
   },
   {
@@ -96,12 +85,7 @@ const skillsData: SkillCategory[] = [
         level: 85,
         color: "#339933"
       },
-      {
-        name: "Express",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-        level: 80,
-        color: "#000000"
-      },
+      
       {
         name: "MongoDB",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
@@ -122,7 +106,7 @@ const skillsData: SkillCategory[] = [
       {
         name: "Git",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-        level: 85,
+        level: 60,
         color: "#F05032"
       },
       {
@@ -137,12 +121,7 @@ const skillsData: SkillCategory[] = [
         level: 90,
         color: "#007ACC"
       },
-      {
-        name: "Jasmine",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jasmine/jasmine-plain.svg",
-        level: 70,
-        color: "#8A4182"
-      },
+     
       {
         name: "Ubuntu",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg",
