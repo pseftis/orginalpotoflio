@@ -19,14 +19,14 @@ const Hero: React.FC = () => {
               Hello, I'm
             </h2>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 dark:text-white">
-              Ch Yatesh Chandra Sai
+              Ch Yatesh chandra sai  
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6">
-              Computer Science Student, Full Stack Developer, and Cybersecurity Builder
+              BTech Computer Science Student & Full Stack Developer
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-              I build practical web platforms with clean interfaces, reliable backends, and a growing focus on
-              security products like ScropIDS.
+              Passionate about creating innovative web solutions and exploring new technologies. 
+              Currently focused on MERN stack development and building projects that solve real-world problems.
             </p>
             
             <div className="flex flex-wrap gap-4">
