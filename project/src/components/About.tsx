@@ -82,8 +82,8 @@ const About: React.FC = () => {
             
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                I'm a passionate Computer Science student with a strong interest in web development and software engineering. 
-                Currently in my 3rd year of BTech, I'm focused on building meaningful projects that solve real-world problems.
+                I'm a passionate Computer Science student with a strong interest in web development, software engineering,
+                and cybersecurity. Currently in my 3rd year of BTech, I'm focused on building meaningful projects that solve real-world problems.
               </p>
               
               <p>
@@ -93,8 +93,8 @@ const About: React.FC = () => {
               </p>
               
               <p>
-                Besides my academic pursuits, I've completed several projects like a Hospital Management System and 
-                Sales Tracker Website that have helped me refine my skills in full-stack development. I'm also dedicated 
+                Besides my academic pursuits, I've completed several projects like a Hospital Management System,
+                Sales Tracker Website, and ScropIDS security platform that have helped me refine my skills in full-stack development. I'm also dedicated 
                 to continuous learning through online courses and certifications.
               </p>
 

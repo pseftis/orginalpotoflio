@@ -22,11 +22,11 @@ const Hero: React.FC = () => {
               Ch Yatesh chandra sai  
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6">
-              BTech Computer Science Student & Full Stack Developer
+              BTech Computer Science Student, Full Stack Developer & Security Builder
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-              Passionate about creating innovative web solutions and exploring new technologies. 
-              Currently focused on MERN stack development and building projects that solve real-world problems.
+              Passionate about creating practical web and security solutions. 
+              Currently focused on full-stack development, intrusion detection systems, and projects that solve real-world problems.
             </p>
             
             <div className="flex flex-wrap gap-4">
