@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, ExternalLink, Github, ShieldCheck } from 'lucide-react';
+import { Github, ExternalLink, ChevronDown, ShieldCheck } from 'lucide-react';
 
 interface Project {
   id: number;
@@ -12,94 +12,75 @@ interface Project {
   github: string;
   period: string;
   type: 'featured' | 'other';
-  category: string;
 }
 
 const projectsData: Project[] = [
   {
     id: 1,
-    title: 'ScropSec / ScropIDS',
-    description: 'A production-oriented intrusion detection platform with endpoint agents, multi-tenant APIs, alerting, and LLM-assisted threat analysis.',
-    detailedDescription: 'Built ScropIDS as a full-stack cybersecurity platform for collecting endpoint telemetry, aggregating events, and surfacing actionable alerts. The system combines a Django REST Framework backend, PostgreSQL JSONB data model, Celery and Redis scheduling, Docker deployment, a React dashboard, and Go-based cross-platform agent starters. It supports organization-based tenant flows, agent enrollment, alert channels, and dual LLM analysis through OpenAI-compatible APIs or local Ollama.',
-    image: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg',
-    technologies: ['Django', 'DRF', 'React', 'PostgreSQL', 'Celery', 'Redis', 'Docker', 'Go Agents', 'LLM'],
-    github: 'https://github.com/pseftis/ScropIDS',
-    period: '2026',
-    type: 'featured',
-    category: 'Cybersecurity',
+    title: "Hospital Management System",
+    description: "A comprehensive MERN stack application for managing hospitals, doctors, and patients with role-based access control.",
+    detailedDescription: "Developed a hospital management system to manage hospitals, doctors, and patients with role-based access for Admin, Doctor, and Patient users. Implemented RESTful APIs in Node.js and Express.js, integrated MongoDB for secure data storage, and enabled hospital creation, updates, deletion, city search, and detailed hospital management.",
+    image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Authentication"],
+    github: "https://github.com/pseftis/",
+    period: "January 2024 - February 2024",
+    type: 'featured'
   },
   {
     id: 2,
-    title: 'Sales Tracker',
-    description: 'A verified Vite React app for managing products, recording grouped sales, and reviewing revenue analytics.',
-    detailedDescription: 'Tested from the GitHub repo and confirmed with a production build. Sales Tracker includes product management, sales entry flows, dashboard summaries, and analytics views powered by Redux Toolkit, Recharts, Chart.js, and Tailwind CSS. It is useful for tracking product-level revenue, quantity distribution, and day-to-day sales activity.',
-    image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg',
-    technologies: ['React', 'Vite', 'Redux Toolkit', 'Recharts', 'Chart.js', 'Tailwind CSS'],
-    github: 'https://github.com/pseftis/scales-tracker',
-    period: 'Verified build - 2026',
-    type: 'featured',
-    category: 'Analytics',
+    title: "Sales Tracker Website",
+    description: "A React.js application for monitoring and managing sales records with data visualization features.",
+    detailedDescription: "Developed a Sales Tracker website to monitor and manage sales records efficiently. Built a dynamic and responsive frontend using React.js, with filtering, sorting, and chart-based views to make sales activity easier to analyze.",
+    image: "https://images.pexels.com/photos/7947451/pexels-photo-7947451.jpeg",
+    technologies: ["React.js", "Chart.js", "CSS", "JavaScript", "Responsive Design"],
+    github: "https://github.com/pseftis",
+    period: "September 2024 - December 2024",
+    type: 'featured'
   },
   {
     id: 3,
-    title: 'SmartReach',
-    description: 'A verified campaign automation dashboard with workflows, analytics, demo data, and optional Supabase support.',
-    detailedDescription: 'Tested from the GitHub repo and confirmed with a production build. SmartReach provides personalized campaign management, workflow automation, performance analytics, and a demo mode when Supabase credentials are not configured. It is built as a polished Vite + TypeScript app with reusable dashboard views.',
-    image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg',
-    technologies: ['TypeScript', 'React', 'Vite', 'Supabase', 'React Router', 'Recharts'],
-    github: 'https://github.com/pseftis/smartreach',
-    period: 'Verified build - 2026',
-    type: 'featured',
-    category: 'SaaS',
+    title: "ScropIDS Security Platform",
+    description: "A multi-tenant intrusion detection platform with endpoint agents, event ingestion, LLM analysis, and an operational React dashboard.",
+    detailedDescription: "Built ScropIDS as a production-oriented IDS platform for collecting endpoint events, enrolling agents, aggregating security telemetry, and generating alerts. The monorepo includes a Django REST Framework backend, Celery and Redis scheduling, PostgreSQL storage, OpenAI-compatible and local Ollama LLM analysis modes, cross-platform agent starters, Docker deployment, and a React/Vite dashboard for monitoring tenant activity.",
+    image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg",
+    technologies: ["Django", "DRF", "React", "TypeScript", "PostgreSQL", "Celery", "Redis", "Docker"],
+    github: "https://github.com/pseftis/ScropIDS",
+    period: "2026",
+    type: 'featured'
   },
   {
     id: 4,
-    title: 'DataGuard - Personal Data & Consent Dashboard',
-    description: 'A verified privacy dashboard for modeling partner apps, consent rules, and live data-sharing risk scores.',
-    detailedDescription: 'Tested from the GitHub repo and confirmed with a Next.js production build. DataGuard lets users model partner applications and configure per-category consent rules for sensitive data such as email, phone, location, browsing history, payments, and contacts. A deterministic rule-based engine calculates a privacy risk score from 0 to 100 and explains the trade-offs between personalization and privacy.',
-    image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg',
-    technologies: ['TypeScript', 'Next.js', 'React', 'Risk Engine', 'LocalStorage', 'System Design'],
-    github: 'https://github.com/pseftis/DataGuard',
-    period: 'Verified build - 2026',
-    type: 'featured',
-    category: 'Privacy',
+    title: "Real Estate Listings Platform",
+    description: "A web application for browsing and listing real estate properties with filtering and search capabilities.",
+    detailedDescription: "Created a real estate platform enabling users to list, browse, and search for properties. Implemented filtering based on location, price, amenities, and property type, with React on the frontend, Node.js on the backend, MongoDB storage, Google Maps integration, user authentication, bookmarking, and contact forms.",
+    image: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg",
+    technologies: ["React", "MongoDB", "Node.js", "Express", "Google Maps API"],
+    github: "https://github.com/pseftis",
+    period: "March 2024 - May 2024",
+    type: 'featured'
   },
   {
     id: 5,
-    title: 'E-Commerce Storefront',
-    description: 'A verified React shopping interface with product categories, cart flows, and product detail pages.',
-    detailedDescription: 'Tested from the GitHub repo and confirmed with a production build. This e-commerce storefront includes product browsing, category pages for men, women, and kids, product details, cart state, login/signup screens, and responsive product sections. It is the strongest non-duplicate e-commerce frontend from the repo set.',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg',
-    technologies: ['React', 'React Router', 'Context API', 'CSS', 'Create React App'],
-    github: 'https://github.com/pseftis/e-commeres',
-    period: 'Verified build - 2026',
-    type: 'featured',
-    category: 'E-Commerce',
+    title: "DataGuard - Personal Data & Consent Dashboard",
+    description: "A privacy-focused dashboard for designing and analyzing fine-grained data-sharing consent across partner applications.",
+    detailedDescription: "DataGuard is a system design project built with Next.js 14 and TypeScript. It allows users to model partner applications and configure per-category consent rules for sensitive data including Email, Phone, Location, Browsing History, Payments, and Contacts. A deterministic rule-based risk engine computes a live privacy risk score from 0 to 100 and generates a clear explanation for the user.",
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    technologies: ["TypeScript", "Next.js 14", "React", "Risk Engine", "LocalStorage", "System Design"],
+    github: "https://github.com/pseftis/DataGuard",
+    period: "2024",
+    type: 'featured'
   },
   {
     id: 6,
-    title: 'Student Result Management System',
-    description: 'A verified student records platform with subject management, result entry, and automatic GPA calculation.',
-    detailedDescription: 'Tested from the GitHub repo and confirmed with a production frontend build. The app manages students, subjects, academic results, grades, and GPA summaries through a Vite React interface backed by an Express and SQLite API.',
-    image: 'https://images.pexels.com/photos/5905700/pexels-photo-5905700.jpeg',
-    technologies: ['React', 'Vite', 'Express', 'SQLite', 'Axios', 'Tailwind CSS'],
-    github: 'https://github.com/pseftis/Student-result-',
-    period: 'Verified build - 2026',
-    type: 'other',
-    category: 'Education',
-  },
-  {
-    id: 7,
-    title: 'E-Learning Website',
-    description: 'A static learning website with course-focused content and a responsive frontend layout.',
-    detailedDescription: 'Checked from the GitHub repo as a static HTML/SCSS website. The project presents an e-learning experience with course sections, modern page structure, and frontend styling that can be deployed without a backend service.',
-    image: 'https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg',
-    technologies: ['HTML', 'SCSS', 'CSS', 'Responsive Design'],
-    github: 'https://github.com/pseftis/e-learning-website',
-    period: 'Static site checked - 2026',
-    type: 'other',
-    category: 'Education',
-  },
+    title: "E-Learning Platform",
+    description: "An online learning platform with course management, video lectures, and assessment features.",
+    detailedDescription: "Developed an e-learning platform that allows instructors to create courses and students to enroll in them. Implemented video lecture support, quizzes, progress tracking, discussion forums, file sharing, and certificate generation upon course completion.",
+    image: "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
+    technologies: ["MERN Stack", "AWS S3", "Video.js", "Redux"],
+    github: "https://github.com/pseftis",
+    period: "October 2023 - December 2023",
+    type: 'other'
+  }
 ];
 
 const Projects: React.FC = () => {
@@ -110,10 +91,9 @@ const Projects: React.FC = () => {
     setExpandedId(expandedId === id ? null : id);
   };
 
-  const filteredProjects =
-    activeFilter === 'all'
-      ? projectsData
-      : projectsData.filter((project) => project.type === activeFilter);
+  const filteredProjects = activeFilter === 'all'
+    ? projectsData
+    : projectsData.filter(project => project.type === activeFilter);
 
   return (
     <section id="projects" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
@@ -128,19 +108,8 @@ const Projects: React.FC = () => {
           My Projects
         </motion.h2>
 
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto -mt-8 mb-12"
-        >
-          A selection of full-stack, cybersecurity, and system design work focused on practical workflows,
-          clean interfaces, and scalable backend foundations.
-        </motion.p>
-
         <div className="flex justify-center mb-12">
-          <div className="inline-flex flex-wrap justify-center rounded-md shadow-sm bg-white dark:bg-gray-700 p-1 gap-1">
+          <div className="inline-flex rounded-md shadow-sm bg-white dark:bg-gray-700 p-1 border border-gray-200 dark:border-gray-600">
             <button
               onClick={() => setActiveFilter('all')}
               className={`px-4 py-2 text-sm font-medium rounded-md transition-all duration-300 ${
@@ -169,7 +138,7 @@ const Projects: React.FC = () => {
                   : 'text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600'
               }`}
             >
-              Other
+              Other Projects
             </button>
           </div>
         </div>
@@ -182,19 +151,21 @@ const Projects: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="project-card flex flex-col h-full group"
+              className="project-card flex flex-col h-full"
             >
               <div className="relative h-48 overflow-hidden rounded-t-lg">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-cover"
                 />
-                <div className="absolute left-4 top-4 inline-flex items-center rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-indigo-700 shadow-sm dark:bg-gray-900/90 dark:text-indigo-300">
-                  <ShieldCheck size={14} className="mr-1" />
-                  {project.category}
-                </div>
-                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {project.title.includes('ScropIDS') && (
+                  <div className="absolute left-4 top-4 inline-flex items-center rounded-full bg-emerald-500 px-3 py-1 text-xs font-semibold text-white shadow">
+                    <ShieldCheck size={14} className="mr-1" />
+                    Security
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.github}
                     target="_blank"
@@ -221,9 +192,9 @@ const Projects: React.FC = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech) => (
+                  {project.technologies.map((tech, techIndex) => (
                     <span
-                      key={tech}
+                      key={techIndex}
                       className="px-2 py-1 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300 rounded text-xs font-medium"
                     >
                       {tech}
@@ -249,9 +220,9 @@ const Projects: React.FC = () => {
                       animate={{ opacity: 1, height: 'auto' }}
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="mt-4 text-gray-700 dark:text-gray-300"
+                      className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed"
                     >
-                      <p className="mb-4 leading-relaxed">{project.detailedDescription}</p>
+                      <p className="mb-4">{project.detailedDescription}</p>
                       <a
                         href={project.github}
                         target="_blank"

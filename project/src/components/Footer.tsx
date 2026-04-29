@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold text-white mb-2">Ch Yatesh Chandra Sai</h2>
-            <p className="text-gray-400">Computer Science Student & Full Stack Developer</p>
+            <h2 className="text-2xl font-bold text-white mb-2">Ch Yatesh chandra sai </h2>
+            <p className="text-gray-400">BTech Computer Science Student & Developer</p>
           </div>
           
           <div className="mb-6 md:mb-0">
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-10 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} Ch Yatesh Chandra Sai. All rights reserved.
+            &copy; {currentYear} ch Yatesh chandra sai. All rights reserved.
           </p>
           
           <Link
