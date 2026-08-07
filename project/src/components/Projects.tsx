@@ -22,19 +22,19 @@ const projectsData: Project[] = [
     detailedDescription: "Developed a hospital management system to manage hospitals, doctors, and patients with role-based access for Admin, Doctor, and Patient users. Implemented RESTful APIs in Node.js and Express.js, integrated MongoDB for secure data storage, and enabled hospital creation, updates, deletion, city search, and detailed hospital management.",
     image: "https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Authentication"],
-    github: "https://github.com/pseftis/",
+    github: "https://github.com/pseftis/hms",
     period: "January 2024 - February 2024",
     type: 'featured'
   },
   {
     id: 2,
-    title: "Sales Tracker Website",
-    description: "A React.js application for monitoring and managing sales records with data visualization features.",
-    detailedDescription: "Developed a Sales Tracker website to monitor and manage sales records efficiently. Built a dynamic and responsive frontend using React.js, with filtering, sorting, and chart-based views to make sales activity easier to analyze.",
+    title: "Student Result Management System",
+    description: "A secure platform for faculty to publish results and students to access academic performance records.",
+    detailedDescription: "Built a streamlined result-management system with faculty authentication, controlled result publishing, and student-facing result access. The project replaces repetitive manual workflows and improved result-processing efficiency by approximately 70%.",
     image: "https://images.pexels.com/photos/7947451/pexels-photo-7947451.jpeg",
-    technologies: ["React.js", "Chart.js", "CSS", "JavaScript", "Responsive Design"],
-    github: "https://github.com/pseftis",
-    period: "September 2024 - December 2024",
+    technologies: ["JavaScript", "Authentication", "Role-Based Access", "Responsive UI"],
+    github: "https://github.com/pseftis/Student-result-",
+    period: "July 2025",
     type: 'featured'
   },
   {
@@ -50,13 +50,13 @@ const projectsData: Project[] = [
   },
   {
     id: 4,
-    title: "Real Estate Listings Platform",
-    description: "A web application for browsing and listing real estate properties with filtering and search capabilities.",
-    detailedDescription: "Created a real estate platform enabling users to list, browse, and search for properties. Implemented filtering based on location, price, amenities, and property type, with React on the frontend, Node.js on the backend, MongoDB storage, Google Maps integration, user authentication, bookmarking, and contact forms.",
+    title: "Online Voting System",
+    description: "A secure election platform with voter authentication, role-based access, election management, and automated results.",
+    detailedDescription: "Developed an online voting system supporting voter authentication, administrator-controlled elections, role-based access, secure ballot workflows, and automated result calculation. Testing achieved 96% reliability across the core voting flow.",
     image: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg",
-    technologies: ["React", "MongoDB", "Node.js", "Express", "Google Maps API"],
-    github: "https://github.com/pseftis",
-    period: "March 2024 - May 2024",
+    technologies: ["JavaScript", "Authentication", "Role-Based Access", "Election Management"],
+    github: "https://github.com/pseftis/online-voting-system",
+    period: "April 2025",
     type: 'featured'
   },
   {
@@ -77,7 +77,7 @@ const projectsData: Project[] = [
     detailedDescription: "Developed an e-learning platform that allows instructors to create courses and students to enroll in them. Implemented video lecture support, quizzes, progress tracking, discussion forums, file sharing, and certificate generation upon course completion.",
     image: "https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg",
     technologies: ["MERN Stack", "AWS S3", "Video.js", "Redux"],
-    github: "https://github.com/pseftis",
+    github: "https://github.com/pseftis/e-learning-website",
     period: "October 2023 - December 2023",
     type: 'other'
   }
