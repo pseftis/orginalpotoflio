@@ -28,13 +28,13 @@ const projectsData: Project[] = [
   },
   {
     id: 2,
-    title: "Student Result Management System",
-    description: "A secure platform for faculty to publish results and students to access academic performance records.",
-    detailedDescription: "Built a streamlined result-management system with faculty authentication, controlled result publishing, and student-facing result access. The project replaces repetitive manual workflows and improved result-processing efficiency by approximately 70%.",
+    title: "IPO Navigator AI",
+    description: "An interactive SME IPO readiness, compliance, document preparation, and trust-verification workspace.",
+    detailedDescription: "Built for the SEBI Securities Market TechSprint problem statement, IPO Navigator AI combines an evidence-based readiness assessment, eight-stage IPO roadmap, smart document vault, compliance gap analysis, cross-document Trust Engine, DRHP drafting studio, expert review lanes, guided issue resolution, and an IPO learning academy. The public prototype uses fictional company data and locally persisted demo progress.",
     image: "https://images.pexels.com/photos/7947451/pexels-photo-7947451.jpeg",
-    technologies: ["JavaScript", "Authentication", "Role-Based Access", "Responsive UI"],
-    github: "https://github.com/pseftis/Student-result-",
-    period: "July 2025",
+    technologies: ["Next.js", "TypeScript", "JavaScript", "Python", "Responsive UI", "LocalStorage"],
+    github: "https://github.com/pseftis/IPO-Navigator-AI",
+    period: "2026 - Present",
     type: 'featured'
   },
   {
