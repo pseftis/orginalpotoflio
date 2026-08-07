@@ -18,7 +18,7 @@ const specialization = (id: string) => `https://www.coursera.org/account/accompl
 
 const certificatesData: Certificate[] = [
   { id: 1, title: 'GPU Programming Specialization', issuer: 'Johns Hopkins University', date: 'November 2025', link: specialization('73LM1ZFHQAFJ'), type: 'Specialization' },
-  { id: 2, title: 'Programming in C++: A Hands-on Introduction Specialization', issuer: 'Codio', date: 'February 2024', link: specialization('2CBCGKGXP35R'), type: 'Specialization' },
+  { id: 2, title: 'Programming in C++: A Hands-on Introduction Specialization', issuer: 'Codio', date: 'February 2024', link: '/certificates/coursera-cpp-specialization.pdf', type: 'Specialization' },
   { id: 3, title: 'Agile Project Management', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('47N427AL4UHS'), type: 'Course' },
   { id: 4, title: 'Project Management: Foundations and Initiation', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('3G0D7TYH7327'), type: 'Course' },
   { id: 5, title: 'Project Planning and Execution', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('9VPR1FHEP1SS'), type: 'Course' },
@@ -28,7 +28,7 @@ const certificatesData: Certificate[] = [
   { id: 9, title: 'Introduction to Parallel Programming with CUDA', issuer: 'Johns Hopkins University', date: 'November 2025', link: coursera('ITWV3OG487N4'), type: 'Course' },
   { id: 10, title: 'Introduction to Concurrent Programming with GPUs', issuer: 'Johns Hopkins University', date: 'November 2025', link: coursera('8MH939N4FT7L'), type: 'Course' },
   { id: 11, title: 'Building Web Applications in Django', issuer: 'University of Michigan', date: 'October 2025', link: coursera('6RQ5DJ95Q3SC'), type: 'Course' },
-  { id: 12, title: 'Building Web Applications in PHP', issuer: 'University of Michigan', date: 'October 2024', type: 'Course' },
+  { id: 12, title: 'Building Web Applications in PHP', issuer: 'University of Michigan', date: 'October 2024', link: '/certificates/coursera-building-web-applications-php.pdf', type: 'Course' },
   { id: 13, title: 'ChatGPT Advanced Data Analysis', issuer: 'Vanderbilt University', date: 'May 2024', link: coursera('4XPWR47AA48X'), type: 'Course' },
   { id: 14, title: 'Dynamic Programming, Greedy Algorithms', issuer: 'University of Colorado Boulder', date: 'May 2024', link: coursera('FUW76FZ9NLXS'), type: 'Course' },
   { id: 15, title: 'Approximation Algorithms and Linear Programming', issuer: 'University of Colorado Boulder', date: 'May 2024', link: coursera('9KPXYQVVJYCR'), type: 'Course' },
@@ -54,8 +54,11 @@ const certificatesData: Certificate[] = [
   { id: 35, title: 'C++ Basic Structures: Vectors, Pointers, Strings, and Files', issuer: 'Codio', date: 'February 2024', link: coursera('LT4T4KYZ54QF'), type: 'Course' },
   { id: 36, title: 'C++ Basics: Selection and Iteration', issuer: 'Codio', date: 'February 2024', link: coursera('K9XB6DXGH8C7'), type: 'Course' },
   { id: 37, title: 'Mastering Data Structures and Algorithms', issuer: 'Udemy', date: 'August 2024', link: 'https://www.udemy.com/certificate/UC-4cac8994-bd20-45c6-9e1f-e9587c9c2908/', type: 'External' },
-  { id: 38, title: 'Internet of Things', issuer: 'NPTEL', date: 'November 2024', link: 'https://nptel.ac.in/', type: 'External' },
-  { id: 39, title: 'Data Structures and Algorithms — Self Paced', issuer: 'GeeksforGeeks', date: 'July 2024', link: 'https://www.geeksforgeeks.org/certificate/5d7cba995bd30570b800eab1e2382007', type: 'External' },
+  { id: 38, title: 'Introduction to Internet of Things', issuer: 'NPTEL - IIT Kharagpur', date: 'July-October 2024', link: '/certificates/nptel-introduction-to-iot.pdf', type: 'External' },
+  { id: 39, title: 'Data Structures and Algorithms - Self Paced', issuer: 'GeeksforGeeks', date: 'July 2024', link: '/certificates/geeksforgeeks-dsa.pdf', type: 'External' },
+  { id: 40, title: 'DBMS Course - Fundamentals and Advanced Concepts', issuer: 'Scaler Topics', date: 'April 2025', link: '/certificates/scaler-dbms.png', type: 'External' },
+  { id: 41, title: 'Data Structures Algorithm DSA - Python, JavaScript & LeetCode', issuer: 'Udemy', date: 'April 2025', link: '/certificates/udemy-dsa-python-javascript.pdf', type: 'External' },
+  { id: 42, title: 'CSS, Bootstrap, JavaScript, PHP Full Stack Crash Course', issuer: 'Udemy', date: 'February 2025', link: '/certificates/udemy-full-stack.pdf', type: 'External' },
 ];
 
 const filters: Array<'All' | CredentialType> = ['All', 'Specialization', 'Course', 'External'];
