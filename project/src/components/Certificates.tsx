@@ -17,6 +17,7 @@ const coursera = (id: string) => `https://www.coursera.org/account/accomplishmen
 const specialization = (id: string) => `https://www.coursera.org/account/accomplishments/specialization/${id}`;
 
 const certificatesData: Certificate[] = [
+  { id: 43, title: 'SAP Certified - Data Analyst - SAP Analytics Cloud', issuer: 'SAP', date: 'February 2026', link: 'https://www.credly.com/badges/08206e62-5cc9-4538-ae1c-18dbde80cef7', type: 'External' },
   { id: 1, title: 'GPU Programming Specialization', issuer: 'Johns Hopkins University', date: 'November 2025', link: specialization('73LM1ZFHQAFJ'), type: 'Specialization' },
   { id: 2, title: 'Programming in C++: A Hands-on Introduction Specialization', issuer: 'Codio', date: 'February 2024', link: '/certificates/coursera-cpp-specialization.pdf', type: 'Specialization' },
   { id: 3, title: 'Agile Project Management', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('47N427AL4UHS'), type: 'Course' },
@@ -83,10 +84,10 @@ const Certificates: React.FC = () => {
           Certifications
         </motion.h2>
         <p className="text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-4">
-          36 verified Coursera credentials across GPU programming, AI, project management, web development, algorithms, C++, and networking.
+          Verified credentials across SAP Analytics Cloud, GPU programming, AI, project management, web development, algorithms, C++, and networking.
         </p>
         <p className="text-center text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-10">
-          {certificatesData.length} total credentials · 2 specializations · 34 Coursera courses
+          {certificatesData.length} total credentials · 2 specializations · SAP Certified Data Analyst
         </p>
 
         <div className="max-w-4xl mx-auto mb-10 space-y-4">
