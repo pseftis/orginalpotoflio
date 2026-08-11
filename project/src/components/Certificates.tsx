@@ -19,6 +19,7 @@ const specialization = (id: string) => `https://www.coursera.org/account/accompl
 const certificatesData: Certificate[] = [
   { id: 43, title: 'SAP Certified - Data Analyst - SAP Analytics Cloud', issuer: 'SAP', date: 'February 2026', link: 'https://www.credly.com/badges/08206e62-5cc9-4538-ae1c-18dbde80cef7', type: 'External' },
   { id: 1, title: 'GPU Programming Specialization', issuer: 'Johns Hopkins University', date: 'November 2025', link: specialization('73LM1ZFHQAFJ'), type: 'Specialization' },
+  { id: 44, title: 'Salesforce Training - 24 Days (Grade A)', issuer: 'SkillStone - A Grazitti Interactive Initiative', date: 'January-February 2025', type: 'External' },
   { id: 2, title: 'Programming in C++: A Hands-on Introduction Specialization', issuer: 'Codio', date: 'February 2024', link: '/certificates/coursera-cpp-specialization.pdf', type: 'Specialization' },
   { id: 3, title: 'Agile Project Management', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('47N427AL4UHS'), type: 'Course' },
   { id: 4, title: 'Project Management: Foundations and Initiation', issuer: 'University of Colorado Boulder', date: 'February 2026', link: coursera('3G0D7TYH7327'), type: 'Course' },
@@ -84,7 +85,7 @@ const Certificates: React.FC = () => {
           Certifications
         </motion.h2>
         <p className="text-center text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-4">
-          Verified credentials across SAP Analytics Cloud, GPU programming, AI, project management, web development, algorithms, C++, and networking.
+          Verified credentials across SAP Analytics Cloud, Salesforce, GPU programming, AI, project management, web development, algorithms, C++, and networking.
         </p>
         <p className="text-center text-sm font-semibold text-indigo-600 dark:text-indigo-400 mb-10">
           {certificatesData.length} total credentials · 2 specializations · SAP Certified Data Analyst
@@ -121,7 +122,7 @@ const Certificates: React.FC = () => {
                   <a href={certificate.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center font-semibold text-indigo-600 hover:text-indigo-700 dark:text-indigo-400">
                     Verify credential <ExternalLink size={15} className="ml-1.5" />
                   </a>
-                ) : <span className="text-sm text-gray-500 dark:text-gray-400">Listed in Coursera accomplishments</span>}
+                ) : <span className="text-sm text-gray-500 dark:text-gray-400">Certificate available on request</span>}
               </div>
             </motion.article>
           ))}
