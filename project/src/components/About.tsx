@@ -45,7 +45,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-400">Gudivada, Andhra Pradesh 281001</p>
+                  <p className="text-gray-600 dark:text-gray-400">Gudivada, Andhra Pradesh 521301</p>
                 </div>
               </div>
               
