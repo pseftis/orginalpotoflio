@@ -44,7 +44,7 @@ const projectsData: Project[] = [
     detailedDescription: "Built ScropIDS as a production-oriented IDS platform for collecting endpoint events, enrolling agents, aggregating security telemetry, and generating alerts. The monorepo includes a Django REST Framework backend, Celery and Redis scheduling, PostgreSQL storage, OpenAI-compatible and local Ollama LLM analysis modes, cross-platform agent starters, Docker deployment, and a React/Vite dashboard for monitoring tenant activity.",
     image: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg",
     technologies: ["Django", "DRF", "React", "TypeScript", "PostgreSQL", "Celery", "Redis", "Docker"],
-    github: "https://github.com/pseftis/ScropIDS",
+    github: "https://github.com/pseftis/ScropIDS-App",
     period: "2026",
     type: 'featured'
   },
